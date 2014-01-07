@@ -11,6 +11,8 @@ Janitor!
 ## Requirements
 * Python
 * [Plex Media Server](https://plex.tv/downloads)
+* Your movies needs to be in a subfolder, should be like this: Detroit Rock City/detroit-rock-city.avi
+* Your show episodes must not be in individual subfolders, should be like this: The Big Bang Theory/Season 07/the-hofstadter-insufficiency.avi
 
 ## Usage
 Run:
