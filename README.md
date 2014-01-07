@@ -16,7 +16,9 @@ Janitor!
 
 ## Usage
 Run:
+```
     python janitor.py
+```
 
 ## Settings
 Name | Values | Description
