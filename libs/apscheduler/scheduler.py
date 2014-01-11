@@ -9,12 +9,12 @@ from logging import getLogger
 import os
 import sys
 
-from libs.apscheduler.util import *
-from libs.apscheduler.triggers import SimpleTrigger, IntervalTrigger, CronTrigger
-from libs.apscheduler.jobstores.ram_store import RAMJobStore
-from libs.apscheduler.job import Job, MaxInstancesReachedError
-from libs.apscheduler.events import *
-from libs.apscheduler.threadpool import ThreadPool
+from apscheduler.util import *
+from apscheduler.triggers import SimpleTrigger, IntervalTrigger, CronTrigger
+from apscheduler.jobstores.ram_store import RAMJobStore
+from apscheduler.job import Job, MaxInstancesReachedError
+from apscheduler.events import *
+from apscheduler.threadpool import ThreadPool
 
 logger = getLogger(__name__)
 

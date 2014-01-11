@@ -1,3 +1,3 @@
-from libs.apscheduler.triggers.cron import CronTrigger
-from libs.apscheduler.triggers.interval import IntervalTrigger
-from libs.apscheduler.triggers.simple import SimpleTrigger
+from apscheduler.triggers.cron import CronTrigger
+from apscheduler.triggers.interval import IntervalTrigger
+from apscheduler.triggers.simple import SimpleTrigger

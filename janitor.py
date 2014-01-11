@@ -1,7 +1,13 @@
-import os, ConfigParser, codecs, shutil
+import os, ConfigParser, codecs, shutil, sys
+from os.path import dirname
 from datetime import datetime
-from libs.apscheduler.scheduler import Scheduler
-from libs.pyplex.server import Server
+
+# Insert local directories into path
+base_path = dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(base_path, 'libs'))
+
+from apscheduler.scheduler import Scheduler
+from pyplex.server import Server
 
 # Import settings from settings file
 config = ConfigParser.ConfigParser()

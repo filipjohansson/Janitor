@@ -2,7 +2,7 @@
 Stores jobs in an array in RAM. Provides no persistence support.
 """
 
-from libs.apscheduler.jobstores.base import JobStore
+from apscheduler.jobstores.base import JobStore
 
 
 class RAMJobStore(JobStore):
